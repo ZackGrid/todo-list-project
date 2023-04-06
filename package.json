@@ -1,0 +1,22 @@
+{
+  "name": "todo-list-project",
+  "version": "1.0.0",
+  "description": "A web application that functions as a todo list and/or for simple note taking.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZackGrid/todo-list-project.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZackGrid/todo-list-project/issues"
+  },
+  "homepage": "https://github.com/ZackGrid/todo-list-project#readme"
+}
