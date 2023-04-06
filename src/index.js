@@ -1,6 +1,8 @@
+import { format } from "date-fns";
 
-const test = () => {
-  console.log('testando, um, dois, três...');
-}
+const content = document.querySelector('.content');
 
-test();
+const today = new Date();
+const formattedDate = format(today, 'PPPP');
+
+content.textContent = formattedDate;
