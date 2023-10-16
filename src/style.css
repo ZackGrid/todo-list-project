@@ -1,0 +1,53 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --white: rgb(252, 251, 244);
+  --secondary: rgb(212, 163, 115);
+  --primary: rgb(204, 213, 174);
+  --light: rgb(254, 250, 224);
+}
+
+@font-face {
+  font-family: 'orkney-regular';
+  src: url('./font/orkney-regular-webfont.woff2') format('woff2'), url('./font/orkney-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'orkney-medium';
+  src: url('./font/orkney-medium-webfont.woff2') format('woff2'), url('./font/orkney-medium-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'orkney-bold';
+  src: url('./font/orkney-bold-webfont.woff2') format('woff2'), url('./font/orkney-bold-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  font-family: 'orkney-regular';
+  background-color: var(--white);
+}
+
+.sidebar button {
+  border: none;
+  background-color: transparent;
+  font-family: 'orkney-medium';
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+}
+
+.sidebar {
+  background-color: var(--primary);
+  border-left: 10px solid var(--secondary);
+}
